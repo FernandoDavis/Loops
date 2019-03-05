@@ -27,6 +27,11 @@ public class StudentRecordSystem {
 		return totalStudentRecords;
 	}
 	
+	/*                       **IMPORTANT**
+	 * Method for testers, Other methods should be done using Arrays.
+	 * The use of Lists or any of it's functions is forbidden.
+	 */
+	
 	public void addAllStudents(StudentRecord[] sr) {
 		ArrayList<StudentRecord> list = new ArrayList<StudentRecord>();
 		for(int i = 0; i<totalStudentRecords; i++) {
