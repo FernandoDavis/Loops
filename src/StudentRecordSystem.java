@@ -50,74 +50,7 @@ public class StudentRecordSystem {
 	 * the capacity of the current array.
 	 */
 	public void addStudentRecord(String id, String name, Gender gender, double gpa) {
-		//Write your code here
-		
-	}
-
-
-	/* IMPLEMENT USING A REGULAR FOR LOOP.
-	 * 
-	 * Returns an array of Strings where each entry represents a student record.
-	 * 
-	 * HINT: Use the toString method in the Student Record inner class.
-	 */
-	public String[] recordsToString() {
-		//Write your code here
-		return null; //Dummy return
-	}
-	
-	/* IMPLEMENT USING A WHILE LOOP.
-	 * 
-	 * Returns true if this list contains the specified student. More 
-	 * formally, returns true if and only if this list contains at 
-	 * least one element e such that (o==null ? e==null : o.equals(e)).
-	 * 
-	 * 
-	 */
-	public boolean contains(StudentRecord s) {
-		//Write your code here
-		return false; //Dummy return
-	}
-
-	/* IMPLEMENT WITH ANY LOOP.
-	 * 
-	 * Returns the minimum element of the student record system, according 
-	 * to the natural ordering of its GPA.
-	 * 
-	 */
-	public double minStudentGPA() {
-		//Write your code here
-		return 0; //Dummy return
-	}
-	
-/* IMPLEMENT WITH ANY LOOP.
-	 * 
-	 * Returns the maximum element of the student record system, according 
-	 * to the natural ordering of its GPA.
-	 * 
-	 */
-	public double maxStudentGPA() {
-		//Write your code here
-		return 0; //Dummy return
-	}
-	
-	/* IMPLEMENT WITH ANY LOOPS
-	 * 
-	 * Returns the average of the GPA's in student record system.
-	 */
-	public double averageStudentGPA() {
-		//Write your code here
-		return 0; //Dummy return
-	}
-	
-	/* IMPLEMENT WITH NESTED LOOPS.
-	 * 
-	 * Returns true if two instances of StudentRecord have the same name, false otherwise.
-	 * HINT: Use the Equals method.
-	 */
-	public boolean repeatedStudentNames() {
-		//Write your code here
-		return false; //Dummy return
+		//Write your code here	
 	}
 	
 	/*
